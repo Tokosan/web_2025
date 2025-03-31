@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifa a beneficio de Piscolita</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #fff5f5;
+        }
+        
+        h1 {
+            font-family: 'Fredoka One', cursive;
+            color: #FD585E;
+            margin-bottom: 30px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #ff69b4;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            transition: background-color 0.3s;
+        }
+        
+        .button:hover {
+            background-color: #ff1493;
+        }
+        
+        .contact {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .contact a {
+            color: #666;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .contact a:hover {
+            color: #ff69b4;
+        }
+
+        .fa-whatsapp {
+            color: #25D366;
+        }
+
+        .fa-envelope {
+            color: #ff69b4;
+        }
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 140px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 150%;
+            left: 50%;
+            margin-left: -75px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            font-size: 14px;
+        }
+
+        .tooltip .tooltiptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+        }
+
+        .tooltip .tooltiptext.show {
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>        <i class="fas fa-paw paw-icon"></i>
+        Rifa a beneficio de Piscolita        <i class="fas fa-paw paw-icon"></i>
+    </h1>
+
+    
+    <img src="rifa-piscolita.jpg" alt="Información de la rifa">
+    
+    <div>
+        <a href="https://slach.cl/rifapiscolita" class="button" target="_blank" rel="noopener noreferrer">Comprar números</a>
+    </div>
+    
+    <div class="contact">
+        <h2>Contacto:</h2>
+        <p>
+            <a href="https://wa.me/56992344648">
+                <i class="fab fa-whatsapp"></i> +56 9 9234 4648
+            </a>
+        </p>
+        <p>
+            <a href="mailto:barbara.pavez@cero.ai">
+                <i class="fas fa-envelope"></i> barbara.pavez@cero.ai
+            </a>
+        </p>
+    </div>
+</body>
+</html>
